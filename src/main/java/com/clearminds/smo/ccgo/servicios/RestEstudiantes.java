@@ -15,12 +15,12 @@ import com.clearminds.ccgo.servicios.ServicioEstudiante;
 @Path("/estudiantes")
 public class RestEstudiantes {
 	
-	@Path("/recuperar")
+	/*@Path("/recuperar")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON) 
 	public Estudiante recuperar() {
 		return new Estudiante("Cristian", "Gómez");
-	}
+	}*/
 	
 	
 	@Path("/insertar")
